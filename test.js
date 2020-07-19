@@ -23,13 +23,12 @@ function query(param, cb) {
     });
 }
 
-// setInterval(() => {
-  query({ name: 'anan', age: 29, time: Date.now() }, httpRawTxt => {
-    console.log('[http response]', httpRawTxt);
-  });
-// }, 999);
+query({ name: 'anan', age: 29, time: Date.now() }, httpRawTxt => {
+  console.log('[http response]', httpRawTxt);
+});
 
+// 监听 Ctrl + c
 process.on('SIGINT', () => {
   handel.kill();
   process.exit(0);
-})
+});
