@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeAddons", "NodeAddons\NodeAddons.csproj", "{36EB74C0-8511-4CB4-97D9-651813775E7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Debug|x86.ActiveCfg = Debug|x86
+		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Debug|x86.Build.0 = Debug|x86
+		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Release|x86.ActiveCfg = Release|x86
+		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E73F9E85-7377-45C4-9DAC-85AF3DA80471}
+	EndGlobalSection
+EndGlobal
