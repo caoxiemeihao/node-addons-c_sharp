@@ -38,7 +38,7 @@
   - 可能有人会想到用双工的 `web socket` 实现通讯，很棒！实现方式确实有很多种，这里用 `Console.WriteLine()` 通过标准的 `stdio` 方式实现，算不算是一个开发成本不高的**讨巧做法**呢！
 
 #### 大致流程
-![](https://raw.github.com/caoxiemeihao/node-addons-c_sharp/process.png)
+![](https://raw.githubusercontent.com/caoxiemeihao/node-addons-c_sharp/master/process.png)
 
 #### 开发环境
 - C# 代码部分使用 Visual Studio 2017
