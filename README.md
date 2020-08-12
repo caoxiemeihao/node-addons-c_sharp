@@ -1,5 +1,7 @@
 ## 使用 C# 开发 node.js 插件
 
+- 简单版 [Node.js 利用 stdio 标准输入/输出实现与 C# 程序通讯](README-with-stdio)
+
 - [完整代码](https://github.com/caoxiemeihao/node-addons-c_sharp)
 
 #### 项目需求
