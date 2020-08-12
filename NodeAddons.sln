@@ -5,16 +5,28 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeAddons", "NodeAddons\NodeAddons.csproj", "{36EB74C0-8511-4CB4-97D9-651813775E7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeAddon_WithStdio", "NodeAddon_WithStdio\NodeAddon_WithStdio.csproj", "{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Debug|x86.ActiveCfg = Debug|x86
 		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Debug|x86.Build.0 = Debug|x86
+		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Release|Any CPU.ActiveCfg = Release|x86
 		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Release|x86.ActiveCfg = Release|x86
 		{36EB74C0-8511-4CB4-97D9-651813775E7A}.Release|x86.Build.0 = Release|x86
+		{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}.Debug|x86.ActiveCfg = Debug|x86
+		{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}.Debug|x86.Build.0 = Debug|x86
+		{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}.Release|Any CPU.ActiveCfg = Release|x86
+		{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}.Release|x86.ActiveCfg = Release|x86
+		{2DF84685-1C93-44CB-B8D4-B2D63147A5E7}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
