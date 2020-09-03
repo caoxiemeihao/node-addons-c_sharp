@@ -1,3 +1,8 @@
+#### <font color="green">NodeAddon_WithStdio</font> 使用的 `stdio` 实现进程通信
+#### <font color="blue">NodeAddons</font> 使用手写 `http` 服务器实现通信
+
+---
+
 ## 使用 C# 开发 node.js 插件
 
 - 简单版 [Node.js 利用 stdio 标准输入/输出实现与 C# 程序通讯](README-with-stdio)
